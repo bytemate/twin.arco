@@ -10,5 +10,6 @@
     "noImplicitAny": true,
     "allowJs": true,
     "resolveJsonModule": true
-  }
+  },
+  "include": ["src"]
 }

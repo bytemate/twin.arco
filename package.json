@@ -19,7 +19,10 @@
     "build": "pnpm run build:arco && tsup src/index.ts --format cjs,esm --dts-resolve",
     "build:arco": "pnpx gulp arco",
     "test": "jest",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "license": "MIT",
   "devDependencies": {
@@ -40,6 +43,7 @@
     "prettier": "^2.4.1",
     "through2": "^4.0.2",
     "tsup": "^5.5.0",
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "vitepress": "^0.20.1"
   }
 }

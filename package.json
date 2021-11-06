@@ -27,6 +27,7 @@
   "license": "MIT",
   "devDependencies": {
     "@arco-design/web-react": "^2.23.5",
+    "@arco-design/web-vue": "^2.1.0",
     "@egoist/prettier-config": "^0.1.0",
     "@sucrase/jest-plugin": "^2.2.0",
     "@types/gulp": "^4.0.9",

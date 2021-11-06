@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@arco-design/web-react': ^2.23.5
+  '@arco-design/web-vue': ^2.1.0
   '@egoist/prettier-config': ^0.1.0
   '@sucrase/jest-plugin': ^2.2.0
   '@types/gulp': ^4.0.9
@@ -28,6 +29,7 @@ specifiers:
 
 devDependencies:
   '@arco-design/web-react': 2.23.5
+  '@arco-design/web-vue': 2.1.0
   '@egoist/prettier-config': 0.1.0
   '@sucrase/jest-plugin': 2.2.0
   '@types/gulp': 4.0.9
@@ -176,6 +178,21 @@ packages:
       shallowequal: 1.1.0
     transitivePeerDependencies:
       - '@types/react'
+    dev: true
+
+  /@arco-design/web-vue/2.1.0:
+    resolution: {integrity: sha512-2p5WL5ANtDmB0xmondXtHZhBl462NNgk5CqUm4L9CPP1l3cxu+5Eg2017hDI/V1prhX5xUP9LODFxJBdMy/teA==}
+    peerDependencies:
+      vue: ^3.1.0
+    dependencies:
+      '@arco-design/color': 0.4.0
+      b-tween: 0.3.3
+      b-validate: 1.2.5
+      compute-scroll-into-view: 1.0.17
+      dayjs: 1.10.7
+      number-precision: 1.5.1
+      resize-observer-polyfill: 1.5.1
+      scroll-into-view-if-needed: 2.2.28
     dev: true
 
   /@babel/code-frame/7.12.13:
@@ -1792,6 +1809,10 @@ packages:
 
   /compute-scroll-into-view/1.0.11:
     resolution: {integrity: sha512-uUnglJowSe0IPmWOdDtrlHXof5CTIJitfJEyITHBW6zDVOGu9Pjk5puaLM73SLcwak0L4hEjO7Td88/a6P5i7A==}
+    dev: true
+
+  /compute-scroll-into-view/1.0.17:
+    resolution: {integrity: sha512-j4dx+Fb0URmzbwwMUrhqWM2BEWHdFGx+qZ9qqASHRPqvTYdqvWnHg0H1hIbcyLnvgnoNAVMlwkepyqM3DaIFUg==}
     dev: true
 
   /concat-map/0.0.1:
@@ -5026,6 +5047,12 @@ packages:
     resolution: {integrity: sha512-P9kYMrhi9f6dvWwTGpO5I3HgjSU/8Mts7xL3lkoH5xlewK7O9Obdc5WmMCzppln7bCVGNmf3qfoZXrpCeyNJXw==}
     dependencies:
       compute-scroll-into-view: 1.0.11
+    dev: true
+
+  /scroll-into-view-if-needed/2.2.28:
+    resolution: {integrity: sha512-8LuxJSuFVc92+0AdNv4QOxRL4Abeo1DgLnGNkn1XlaujPH/3cCFz3QI60r2VNu4obJJROzgnIUw5TKQkZvZI1w==}
+    dependencies:
+      compute-scroll-into-view: 1.0.17
     dev: true
 
   /semver-greatest-satisfied-range/1.1.0:

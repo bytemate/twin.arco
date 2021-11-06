@@ -1,0 +1,9 @@
+{
+  "name": "twin-arco-monorepo",
+  "version": "0.0.1",
+  "private": "true",
+  "license": "MIT",
+  "devDependencies": {
+    "@egoist/prettier-config": "^0.1.0"
+  }
+}

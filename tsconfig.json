@@ -11,5 +11,10 @@
     "allowJs": true,
     "resolveJsonModule": true
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.d.ts",
+    ".vitepress/**/*.vue"
+  ]
 }

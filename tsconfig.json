@@ -1,20 +1,20 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "esnext",
-    "strict": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "skipLibCheck": true,
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "allowJs": true,
-    "resolveJsonModule": true
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "skipLibCheck": true
   },
-  "include": [
-    "src",
-    ".vitepress/**/*.ts",
-    ".vitepress/**/*.d.ts",
-    ".vitepress/**/*.vue"
-  ]
+  "include": ["src", "docs/**/*.ts", "docs/**/*.vue", "docs/**/*.d.ts"]
 }

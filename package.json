@@ -1,7 +1,7 @@
 {
   "name": "twin.arco",
   "version": "0.0.1",
-  "description": "Easily use Arco theme in tailwindcss & windicss",
+  "description": "Easily use Arco theme in TailwindCSS & Windi CSS",
   "publishConfig": {
     "access": "public"
   },
@@ -33,6 +33,7 @@
     "@types/gulp": "^4.0.9",
     "@types/gulp-less": "^0.0.32",
     "@types/jest": "^27.0.2",
+    "@vitejs/plugin-vue": "^1.9.4",
     "esbuild-register": "^3.0.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
@@ -46,10 +47,13 @@
     "through2": "^4.0.2",
     "tsup": "^5.5.0",
     "typescript": "^4.4.4",
+    "unplugin-vue-components": "^0.17.2",
     "vite": "^2.6.13",
     "vite-plugin-restart": "^0.0.2",
     "vite-plugin-windicss": "^1.5.1",
     "vitepress": "^0.20.1",
+    "vue": "^3.2.19",
+    "vue-tsc": "^0.3.0",
     "windicss": "^3.2.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "twin.arco",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Easily use Arco theme in tailwindcss & windicss",
   "publishConfig": {
     "access": "public"

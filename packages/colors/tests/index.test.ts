@@ -1,9 +1,11 @@
-import main from '@/index';
+import { theme, palette } from '@/index';
 
-describe('Default cases', () => {
-  test('Have returns', () => {
-    const drink = jest.fn(main);
-    drink();
-    expect(drink).toHaveReturned();
+describe('Arco theme snapshot', () => {
+  test('Theme snapshot', () => {
+    expect(theme).toMatchSnapshot();
+  });
+
+  test('Palette snapshot', () => {
+    expect(palette).toMatchSnapshot();
   });
 });

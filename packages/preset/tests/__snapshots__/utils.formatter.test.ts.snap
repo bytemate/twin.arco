@@ -1,0 +1,477 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utils formatter defaultKeyFormatter 1`] = `"arco-white"`;
+
+exports[`Utils formatter defaultKeyFormatter 2`] = `"arco-black"`;
+
+exports[`Utils formatter defaultKeyFormatter 3`] = `"arco-border"`;
+
+exports[`Utils formatter defaultKeyFormatter 4`] = `"arco-bg-popup"`;
+
+exports[`Utils formatter defaultKeyFormatter 5`] = `"arco-bg-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 6`] = `"arco-bg-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 7`] = `"arco-bg-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 8`] = `"arco-bg-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 9`] = `"arco-bg-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 10`] = `"arco-bg-white"`;
+
+exports[`Utils formatter defaultKeyFormatter 11`] = `"arco-neutral-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 12`] = `"arco-neutral-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 13`] = `"arco-neutral-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 14`] = `"arco-neutral-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 15`] = `"arco-neutral-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 16`] = `"arco-neutral-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 17`] = `"arco-neutral-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 18`] = `"arco-neutral-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 19`] = `"arco-neutral-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 20`] = `"arco-neutral-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 21`] = `"arco-text-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 22`] = `"arco-text-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 23`] = `"arco-text-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 24`] = `"arco-text-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 25`] = `"arco-border-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 26`] = `"arco-border-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 27`] = `"arco-border-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 28`] = `"arco-border-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 29`] = `"arco-fill-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 30`] = `"arco-fill-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 31`] = `"arco-fill-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 32`] = `"arco-fill-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 33`] = `"arco-primary-light-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 34`] = `"arco-primary-light-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 35`] = `"arco-primary-light-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 36`] = `"arco-primary-light-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 37`] = `"arco-secondary"`;
+
+exports[`Utils formatter defaultKeyFormatter 38`] = `"arco-secondary-hover"`;
+
+exports[`Utils formatter defaultKeyFormatter 39`] = `"arco-secondary-active"`;
+
+exports[`Utils formatter defaultKeyFormatter 40`] = `"arco-secondary-disabled"`;
+
+exports[`Utils formatter defaultKeyFormatter 41`] = `"arco-danger-light-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 42`] = `"arco-danger-light-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 43`] = `"arco-danger-light-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 44`] = `"arco-danger-light-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 45`] = `"arco-success-light-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 46`] = `"arco-success-light-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 47`] = `"arco-success-light-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 48`] = `"arco-success-light-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 49`] = `"arco-warning-light-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 50`] = `"arco-warning-light-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 51`] = `"arco-warning-light-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 52`] = `"arco-warning-light-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 53`] = `"arco-tooltip-bg"`;
+
+exports[`Utils formatter defaultKeyFormatter 54`] = `"arco-spin-layer-bg"`;
+
+exports[`Utils formatter defaultKeyFormatter 55`] = `"arco-menu-dark-bg"`;
+
+exports[`Utils formatter defaultKeyFormatter 56`] = `"arco-menu-light-bg"`;
+
+exports[`Utils formatter defaultKeyFormatter 57`] = `"arco-menu-dark-hover"`;
+
+exports[`Utils formatter defaultKeyFormatter 58`] = `"arco-mask-bg"`;
+
+exports[`Utils formatter defaultKeyFormatter 59`] = `"red-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 60`] = `"red-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 61`] = `"red-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 62`] = `"red-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 63`] = `"red-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 64`] = `"red-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 65`] = `"red-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 66`] = `"red-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 67`] = `"red-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 68`] = `"red-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 69`] = `"orangered-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 70`] = `"orangered-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 71`] = `"orangered-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 72`] = `"orangered-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 73`] = `"orangered-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 74`] = `"orangered-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 75`] = `"orangered-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 76`] = `"orangered-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 77`] = `"orangered-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 78`] = `"orangered-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 79`] = `"orange-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 80`] = `"orange-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 81`] = `"orange-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 82`] = `"orange-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 83`] = `"orange-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 84`] = `"orange-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 85`] = `"orange-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 86`] = `"orange-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 87`] = `"orange-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 88`] = `"orange-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 89`] = `"gold-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 90`] = `"gold-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 91`] = `"gold-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 92`] = `"gold-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 93`] = `"gold-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 94`] = `"gold-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 95`] = `"gold-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 96`] = `"gold-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 97`] = `"gold-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 98`] = `"gold-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 99`] = `"yellow-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 100`] = `"yellow-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 101`] = `"yellow-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 102`] = `"yellow-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 103`] = `"yellow-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 104`] = `"yellow-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 105`] = `"yellow-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 106`] = `"yellow-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 107`] = `"yellow-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 108`] = `"yellow-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 109`] = `"lime-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 110`] = `"lime-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 111`] = `"lime-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 112`] = `"lime-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 113`] = `"lime-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 114`] = `"lime-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 115`] = `"lime-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 116`] = `"lime-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 117`] = `"lime-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 118`] = `"lime-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 119`] = `"green-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 120`] = `"green-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 121`] = `"green-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 122`] = `"green-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 123`] = `"green-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 124`] = `"green-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 125`] = `"green-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 126`] = `"green-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 127`] = `"green-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 128`] = `"green-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 129`] = `"cyan-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 130`] = `"cyan-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 131`] = `"cyan-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 132`] = `"cyan-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 133`] = `"cyan-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 134`] = `"cyan-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 135`] = `"cyan-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 136`] = `"cyan-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 137`] = `"cyan-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 138`] = `"cyan-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 139`] = `"blue-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 140`] = `"blue-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 141`] = `"blue-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 142`] = `"blue-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 143`] = `"blue-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 144`] = `"blue-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 145`] = `"blue-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 146`] = `"blue-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 147`] = `"blue-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 148`] = `"blue-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 149`] = `"arcoblue-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 150`] = `"arcoblue-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 151`] = `"arcoblue-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 152`] = `"arcoblue-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 153`] = `"arcoblue-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 154`] = `"arcoblue-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 155`] = `"arcoblue-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 156`] = `"arcoblue-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 157`] = `"arcoblue-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 158`] = `"arcoblue-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 159`] = `"purple-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 160`] = `"purple-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 161`] = `"purple-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 162`] = `"purple-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 163`] = `"purple-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 164`] = `"purple-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 165`] = `"purple-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 166`] = `"purple-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 167`] = `"purple-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 168`] = `"purple-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 169`] = `"pinkpurple-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 170`] = `"pinkpurple-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 171`] = `"pinkpurple-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 172`] = `"pinkpurple-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 173`] = `"pinkpurple-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 174`] = `"pinkpurple-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 175`] = `"pinkpurple-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 176`] = `"pinkpurple-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 177`] = `"pinkpurple-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 178`] = `"pinkpurple-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 179`] = `"magenta-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 180`] = `"magenta-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 181`] = `"magenta-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 182`] = `"magenta-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 183`] = `"magenta-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 184`] = `"magenta-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 185`] = `"magenta-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 186`] = `"magenta-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 187`] = `"magenta-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 188`] = `"magenta-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 189`] = `"gray-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 190`] = `"gray-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 191`] = `"gray-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 192`] = `"gray-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 193`] = `"gray-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 194`] = `"gray-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 195`] = `"gray-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 196`] = `"gray-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 197`] = `"gray-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 198`] = `"gray-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 199`] = `"success-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 200`] = `"success-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 201`] = `"success-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 202`] = `"success-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 203`] = `"success-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 204`] = `"success-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 205`] = `"success-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 206`] = `"success-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 207`] = `"success-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 208`] = `"success-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 209`] = `"primary-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 210`] = `"primary-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 211`] = `"primary-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 212`] = `"primary-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 213`] = `"primary-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 214`] = `"primary-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 215`] = `"primary-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 216`] = `"primary-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 217`] = `"primary-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 218`] = `"primary-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 219`] = `"danger-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 220`] = `"danger-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 221`] = `"danger-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 222`] = `"danger-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 223`] = `"danger-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 224`] = `"danger-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 225`] = `"danger-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 226`] = `"danger-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 227`] = `"danger-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 228`] = `"danger-10"`;
+
+exports[`Utils formatter defaultKeyFormatter 229`] = `"warning-1"`;
+
+exports[`Utils formatter defaultKeyFormatter 230`] = `"warning-2"`;
+
+exports[`Utils formatter defaultKeyFormatter 231`] = `"warning-3"`;
+
+exports[`Utils formatter defaultKeyFormatter 232`] = `"warning-4"`;
+
+exports[`Utils formatter defaultKeyFormatter 233`] = `"warning-5"`;
+
+exports[`Utils formatter defaultKeyFormatter 234`] = `"warning-6"`;
+
+exports[`Utils formatter defaultKeyFormatter 235`] = `"warning-7"`;
+
+exports[`Utils formatter defaultKeyFormatter 236`] = `"warning-8"`;
+
+exports[`Utils formatter defaultKeyFormatter 237`] = `"warning-9"`;
+
+exports[`Utils formatter defaultKeyFormatter 238`] = `"warning-10"`;

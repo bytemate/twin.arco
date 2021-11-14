@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Twin.arco preset WindiCSS preset 1`] = `
+".bg-red-1 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--red-1), var(--tw-bg-opacity, 1));
+}
+.bg-arco-bg-1 {
+  background-color: rgb(var(--color-bg-1));
+}
+.border-red-1 {
+  --tw-border-opacity: 1;
+  border-color: rgba(var(--red-1), var(--tw-border-opacity, 1));
+}
+.border-arco-border-1 {
+  border-color: rgb(var(--color-border-1));
+}
+.text-red-1 {
+  --tw-text-opacity: 1;
+  color: rgba(var(--red-1), var(--tw-text-opacity, 1));
+}
+.text-arco-text-1 {
+  color: rgb(var(--color-text-1));
+}"
+`;

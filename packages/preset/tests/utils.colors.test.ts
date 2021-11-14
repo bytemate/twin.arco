@@ -1,4 +1,4 @@
-import { themeKeys, paletteKeys } from '@/colors';
+import { themeKeys, paletteKeys } from '@/utils/colors';
 
 describe('Colors', () => {
   test('theme should match snapshot', () => {

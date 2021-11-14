@@ -3,16 +3,9 @@ import typography from 'windicss/plugin/typography'
 
 export default defineConfig({
   extract: {
-    include: [
-      '.vitepress/theme/**/*.{ts,vue}',
-    ],
+    include: ['.vitepress/theme/**/*.{ts,vue}'],
   },
-  safelist: [
-    'pb-5',
-    'logo-float-xl',
-    'dark:text-white',
-    'opacity-85',
-  ],
+  safelist: ['pb-5', 'logo-float-xl', 'dark:text-white', 'opacity-85'],
   shortcuts: {
     'logo-float-xl': 'text-6xl m-2 mr-6 float-right',
   },
@@ -64,7 +57,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [
-    typography(),
-  ],
+  plugins: [typography()],
 })

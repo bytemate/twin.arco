@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "monorepo",
+  "name": "@twin.arco/mono",
   "scripts": {
     "new": "modern new",
     "reset": "modern clear",
@@ -9,7 +9,9 @@
     "pre": "modern pre",
     "release": "modern release",
     "deploy": "modern deploy",
-    "lint": "modern lint"
+    "lint": "modern lint",
+    "docs:dev": "pnpm run dev --filter @twin.arco/docs",
+    "docs:build": "pnpm run build --filter @twin.arco/docs"
   },
   "engines": {
     "node": ">=14.17.6"

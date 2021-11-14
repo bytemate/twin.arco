@@ -106,7 +106,7 @@ importers:
       '@modern-js/module-tools': ^1.0.0
       '@modern-js/plugin-jarvis': ^1.0.0
       '@modern-js/plugin-testing': ^1.0.0
-      '@twin.arco/colors': workspace:^0.1.0
+      '@twin.arco/preset': workspace:^0.1.0
       '@types/jest': ^26.0.9
       '@types/node': ^14
       del-cli: ^4.0.1
@@ -114,7 +114,7 @@ importers:
       windicss: ^3.2.1
     dependencies:
       '@babel/runtime': 7.16.3
-      '@twin.arco/colors': link:../colors
+      '@twin.arco/preset': link:../preset
     devDependencies:
       '@modern-js/module-tools': 1.0.2_typescript@4.4.4
       '@modern-js/plugin-jarvis': 1.0.1_typescript@4.4.4
@@ -254,7 +254,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.16.0
       '@babel/helper-validator-option': 7.14.5
-      browserslist: 4.17.6
+      browserslist: 4.18.0
       semver: 6.3.0
     dev: true
 

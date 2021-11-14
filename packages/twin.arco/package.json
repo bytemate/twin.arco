@@ -6,6 +6,16 @@
   "main": "./dist/js/node/index.js",
   "module": "./dist/js/treeshaking/index.js",
   "jsnext:modern": "./dist/js/modern/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/js/treeshaking/index.js",
+      "require": "./dist/js/node/index.js"
+    },
+    "./preset": {
+      "import": "./dist/js/treeshaking/preset.js",
+      "require": "./dist/js/node/preset.js"
+    }
+  },
   "scripts": {
     "prepare": "modern build",
     "prepublishOnly": "modern build --platform",
@@ -16,7 +26,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7",
-    "@twin.arco/colors": "workspace:^0.1.0"
+    "@twin.arco/preset": "workspace:^0.1.0"
   },
   "devDependencies": {
     "@modern-js/module-tools": "^1.0.0",

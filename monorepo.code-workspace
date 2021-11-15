@@ -1,19 +1,23 @@
 {
   "folders": [
     {
-      "name": "preset",
+      "name": "Dark Mode",
+      "path": "packages/dark-mode/"
+    },
+    {
+      "name": "Preset",
       "path": "packages/preset/"
     },
     {
-      "name": "twin-arco",
+      "name": "Twin.Arco",
       "path": "packages/twin.arco/"
     },
     {
-      "name": "colors",
+      "name": "Colors",
       "path": "packages/colors/"
     },
     {
-      "name": "monorepo",
+      "name": "Root",
       "path": "."
     }
   ],
@@ -48,18 +52,12 @@
       "**/bower_components": true
     },
     //
-    "editor.rulers": [
-      80,
-      120
-    ],
+    "editor.rulers": [80, 120],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     //
-    "todo-tree.general.tags": [
-      "TODO:",
-      "FIXME:"
-    ],
+    "todo-tree.general.tags": ["TODO:", "FIXME:"],
     "todo-tree.highlights.defaultHighlight": {
       "gutterIcon": true
     },

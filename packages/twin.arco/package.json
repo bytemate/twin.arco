@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7",
-    "@twin.arco/preset": "workspace:^0.1.1"
+    "@twin.arco/preset": "workspace:^0.1.0"
   },
   "devDependencies": {
     "@modern-js/module-tools": "^1.0.0",

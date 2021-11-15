@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7",
-    "@twin.arco/colors": "workspace:^0.1.1"
+    "@twin.arco/colors": "workspace:^0.1.0"
   },
   "peerDependencies": {
     "react": "^17"

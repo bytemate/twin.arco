@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Windi Arco Dark Mode Plugin should generate arco dark mode selector 1`] = `
+".bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
+}
+body[arco-theme=dark] .dark\\\\:bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
+}"
+`;
+
+exports[`Windi Arco Dark Mode Plugin should generate class dark selector 1`] = `
+".bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
+}
+.dark .dark\\\\:bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
+}"
+`;
+
+exports[`Windi Arco Dark Mode Plugin should generate media dark selector 1`] = `
+".bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(127, 29, 29, var(--tw-bg-opacity));
+}
+@media (prefers-color-scheme: dark) {
+  .dark\\\\:bg-red-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
+  }
+}"
+`;

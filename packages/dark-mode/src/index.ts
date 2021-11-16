@@ -1,3 +1,3 @@
-export default function () {
-  return 'hello world';
-}
+import winidDarkModePlugin from './windi';
+
+export const windi = winidDarkModePlugin;

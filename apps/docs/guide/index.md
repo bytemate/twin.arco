@@ -12,7 +12,7 @@ If your project depend on both [Arco Design] and [Tailwind CSS] or [Windi CSS], 
 
 AKA, [Arco Design] provides a set of CSS Variables, both color palette and theme.
 
-Without this preset, how to apply arco theme in **utility-first CSS framework**?
+Without this preset, how to apply arco theme working with **utility-first CSS framework**?
 
 ```css style.css
 .container {
@@ -24,7 +24,7 @@ Without this preset, how to apply arco theme in **utility-first CSS framework**?
 
 Yes, there is no benefit using **utility-first CSS framework** and [Arco Design]
 
-But, now we have this color preset, coding as using [Windi CSS] or [Tailwind CSS]
+But, now we have this color preset, just coding as using [Windi CSS] or [Tailwind CSS]
 
 ```html page.html
 <div class="text-red-1 bg-arcoblue-6 border-arco-border-1 border-solid">
@@ -44,33 +44,23 @@ pnpm install twin.arco -D
 
 ## Configuration
 
+:::warning
+`extend` is deprecated, please follow above with `preset`
+:::
+
 ```ts windi.config.ts
 import { defineConfig } from 'vite-plugin-windicss'
-import { extend } from 'twin.arco'
+import { preset } from 'twin.arco'
 
 export default defineConfig({
-  theme: {
-    extend: {
-      colors: {
-        ...extend.colors,
-        // other color
-      },
-    },
-  },
+  presets: [preset()],
 })
 ```
 
 ```js tailwind.config.js
-const { extend } = require('twin.arco')
+const { preset } = require('twin.arco')
 
 module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        ...extend.colors,
-        // other colors
-      },
-    },
-  },
+  presets: [preset()],
 }
 ```

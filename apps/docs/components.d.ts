@@ -4,26 +4,12 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    AlgoliaSearchBox: typeof import('./.vitepress/theme/components/organisms/AlgoliaSearchBox.vue')['default'];
     AppButton: typeof import('./.vitepress/theme/components/atoms/AppButton.vue')['default'];
     AppLayout: typeof import('./.vitepress/theme/components/atoms/AppLayout.vue')['default'];
     AppLogo: typeof import('./.vitepress/theme/components/atoms/AppLogo.vue')['default'];
-    'Bx:bxCheckCircle': typeof import('~icons/bx/bx-check-circle')['default'];
-    'Bx:bxClipboard': typeof import('~icons/bx/bx-clipboard')['default'];
     'Bx:bxMoon': typeof import('~icons/bx/bx-moon')['default'];
     'Carbon:arrowLeft': typeof import('~icons/carbon/arrow-left')['default'];
-    'Carbon:arrowRight': typeof import('~icons/carbon/arrow-right')['default'];
-    'Carbon:camera': typeof import('~icons/carbon/camera')['default'];
-    'Carbon:chartBubblePacked': typeof import('~icons/carbon/chart-bubble-packed')['default'];
-    'Carbon:checkmarkOutline': typeof import('~icons/carbon/checkmark-outline')['default'];
-    'Carbon:circlePacking': typeof import('~icons/carbon/circle-packing')['default'];
-    'Carbon:copy': typeof import('~icons/carbon/copy')['default'];
-    'Carbon:download': typeof import('~icons/carbon/download')['default'];
-    'Carbon:openPanelBottom': typeof import('~icons/carbon/open-panel-bottom')['default'];
-    'Carbon:openPanelLeft': typeof import('~icons/carbon/open-panel-left')['default'];
-    'Carbon:openPanelRight': typeof import('~icons/carbon/open-panel-right')['default'];
     'Carbon:pen': typeof import('~icons/carbon/pen')['default'];
-    'Carbon:settingsAdjust': typeof import('~icons/carbon/settings-adjust')['default'];
     CarbonArrowLeft: typeof import('~icons/carbon/arrow-left')['default'];
     CarbonArrowRight: typeof import('~icons/carbon/arrow-right')['default'];
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default'];
@@ -45,9 +31,6 @@ declare module 'vue' {
     LastUpdated: typeof import('./.vitepress/theme/components/molecules/LastUpdated.vue')['default'];
     LearnMore: typeof import('./.vitepress/theme/components/global/LearnMore.vue')['default'];
     Logo: typeof import('./.vitepress/theme/components/atoms/logos/Logo.vue')['default'];
-    'Logos:nuxt': typeof import('~icons/logos/nuxt')['default'];
-    'Logos:svelteIcon': typeof import('~icons/logos/svelte-icon')['default'];
-    'Logos:vue': typeof import('~icons/logos/vue')['default'];
     NavLink: typeof import('./.vitepress/theme/components/molecules/NavLink.vue')['default'];
     NextAndPrevLinks: typeof import('./.vitepress/theme/components/molecules/NextAndPrevLinks.vue')['default'];
     NuxtJs: typeof import('./.vitepress/theme/components/atoms/logos/NuxtJs.vue')['default'];
@@ -74,7 +57,6 @@ declare module 'vue' {
     SidebarLinkItem: typeof import('./.vitepress/theme/components/molecules/sidebar/SidebarLinkItem.vue')['default'];
     SidebarNav: typeof import('./.vitepress/theme/components/molecules/sidebar/SidebarNav.vue')['default'];
     SingleColor: typeof import('./.vitepress/theme/components/molecules/SingleColor.vue')['default'];
-    Sponsors: typeof import('./.vitepress/theme/components/global/Sponsors.vue')['default'];
     TableOfContents: typeof import('./.vitepress/theme/components/molecules/TableOfContents.vue')['default'];
     TheHeader: typeof import('./.vitepress/theme/components/templates/TheHeader.vue')['default'];
     TheHome: typeof import('./.vitepress/theme/components/templates/TheHome.vue')['default'];
@@ -90,7 +72,6 @@ declare module 'vue' {
     TreeMenu: typeof import('./.vitepress/theme/components/organisms/TreeMenu.vue')['default'];
     'Uil:angleDown': typeof import('~icons/uil/angle-down')['default'];
     'Uil:angleRight': typeof import('~icons/uil/angle-right')['default'];
-    'Uil:css3Simple': typeof import('~icons/uil/css3-simple')['default'];
     ViteLogo: typeof import('./.vitepress/theme/components/atoms/logos/ViteLogo.vue')['default'];
     WindiLogo: typeof import('./.vitepress/theme/components/atoms/logos/WindiLogo.vue')['default'];
   }

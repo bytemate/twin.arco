@@ -1,5 +1,13 @@
 # twin.arco
 
+## 1.1.2
+
+### Patch Changes
+
+- 3590aac: Update deps
+- Updated dependencies [3590aac]
+  - @twin.arco/preset@0.1.3
+
 ## 1.1.1
 
 ### Patch Changes

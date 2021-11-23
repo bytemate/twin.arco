@@ -195,7 +195,7 @@ importers:
       '@modern-js/module-tools': ^1.0.0
       '@modern-js/plugin-jarvis': ^1.0.0
       '@modern-js/plugin-testing': ^1.0.0
-      '@twin.arco/colors': workspace:^0.1.0
+      '@twin.arco/colors': workspace:*
       '@types/jest': ^26.0.9
       '@types/node': ^14
       '@types/react': ^17
@@ -232,7 +232,7 @@ importers:
       '@modern-js/module-tools': ^1.0.0
       '@modern-js/plugin-jarvis': ^1.0.0
       '@modern-js/plugin-testing': ^1.0.0
-      '@twin.arco/preset': workspace:^0.1.1
+      '@twin.arco/preset': workspace:*
       '@types/jest': ^26.0.9
       '@types/node': ^14
       del-cli: ^4.0.1

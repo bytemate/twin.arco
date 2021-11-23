@@ -1,5 +1,12 @@
 # @twin.arco/preset
 
+## 0.1.2
+
+### Patch Changes
+
+- 38ddb17: Fix arco theme not working with `rgb()`
+- 51764ac: Remove `react` from peer dependence
+
 ## 0.1.1
 
 ### Patch Changes

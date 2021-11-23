@@ -16,7 +16,7 @@ export function createTheme(
 ) {
   return theme.reduce((colors, key) => {
     const _key = formatter(key);
-    colors[_key] = cssRgb(cssVar(key));
+    colors[_key] = cssVar(key);
     return colors;
   }, {} as Record<string, any>);
 }

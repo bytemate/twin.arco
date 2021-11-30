@@ -15,6 +15,15 @@ describe('Twin.arco preset', () => {
     expect(result.styleSheet.build()).toMatchSnapshot();
   });
 
+  test('WIndiCSS disable opacity', () => {
+    const processor = new Processor({
+      presets: [preset({ enableOpacity: false })],
+    });
+    const result = processor.interpret('text-red-1 text-opacity-50');
+    expect(result.ignored.length).toBe(0);
+    expect(result.styleSheet.build()).toMatchSnapshot();
+  });
+
   test('TailwindCSS preset', async () => {
     const processor = postcss([
       tailwindcss({

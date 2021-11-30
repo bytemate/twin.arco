@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "@babel/runtime": "^7",
-    "@twin.arco/colors": "workspace:*"
+    "@twin.arco/colors": "workspace:*",
+    "@twin.arco/dark-mode": "workspace:*"
   },
   "devDependencies": {
     "@modern-js/module-tools": "^1.0.0",

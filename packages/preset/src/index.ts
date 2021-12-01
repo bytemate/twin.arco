@@ -16,6 +16,7 @@ export default function ({
 }: PresetOptions = {}) {
   const plugins = darkMode === 'windicss' ? [windi] : undefined;
   return {
+    darkMode: plugins?.length ? false : (undefined as false | undefined),
     plugins,
     theme: {
       extend: {

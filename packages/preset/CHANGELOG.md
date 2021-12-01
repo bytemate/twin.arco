@@ -1,5 +1,17 @@
 # @twin.arco/preset
 
+## 0.2.0
+
+### Minor Changes
+
+- 4b7025b: Support dark mode
+
+### Patch Changes
+
+- Updated dependencies [4b7025b]
+  - @twin.arco/dark-mode@0.1.0
+  - @twin.arco/colors@0.1.1
+
 ## 0.1.3
 
 ### Patch Changes

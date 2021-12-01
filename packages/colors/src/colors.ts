@@ -51,6 +51,10 @@ export const theme = [
   '--color-warning-light-2',
   '--color-warning-light-3',
   '--color-warning-light-4',
+  '--color-link-light-1',
+  '--color-link-light-2',
+  '--color-link-light-3',
+  '--color-link-light-4',
   '--color-tooltip-bg',
   '--color-spin-layer-bg',
   '--color-menu-dark-bg',
@@ -242,6 +246,16 @@ export const palette = [
   '--warning-8',
   '--warning-9',
   '--warning-10',
+  '--link-1',
+  '--link-2',
+  '--link-3',
+  '--link-4',
+  '--link-5',
+  '--link-6',
+  '--link-7',
+  '--link-8',
+  '--link-9',
+  '--link-10',
 ] as const;
 
 export type PaletteCssName = typeof palette[number];

@@ -15,24 +15,24 @@
     "test": "modern test --passWithNoTests"
   },
   "dependencies": {
-    "@babel/runtime": "^7",
+    "@babel/runtime": "^7.16.3",
     "@twin.arco/colors": "workspace:*",
     "@twin.arco/dark-mode": "workspace:*"
   },
   "devDependencies": {
-    "@modern-js/module-tools": "^1.0.0",
-    "@modern-js/plugin-jarvis": "^1.0.0",
-    "@modern-js/plugin-testing": "^1.0.0",
-    "@types/jest": "^26.0.9",
-    "@types/node": "^14",
-    "@types/react": "^17",
-    "@types/react-dom": "^17",
+    "@modern-js/module-tools": "^1.1.1",
+    "@modern-js/plugin-jarvis": "^1.1.1",
+    "@modern-js/plugin-testing": "^1.1.1",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^14.17.34",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
     "@types/tailwindcss": "^2.2.4",
     "del-cli": "^4.0.1",
-    "postcss": "^8.3.11",
-    "react": "^17",
+    "postcss": "^8.4.4",
+    "react": "^17.0.2",
     "tailwindcss": "^2.2.19",
-    "typescript": "^4",
+    "typescript": "^4.5.2",
     "windicss": "^3.2.1"
   },
   "sideEffects": [

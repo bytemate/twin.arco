@@ -1,7 +1,11 @@
 {
   "folders": [
     {
-      "name": "example-react",
+      "name": "UseDarkMode React",
+      "path": "packages/use-dark-mode-react/"
+    },
+    {
+      "name": "Example React",
       "path": "examples/react/"
     },
     {

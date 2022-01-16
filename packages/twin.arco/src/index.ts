@@ -1,5 +1,8 @@
 import twinArcoPreset from '@twin.arco/preset';
 
+export { createRgb, createRgba } from '@twin.arco/preset';
+export type { CssVariableString } from '@twin.arco/preset';
+
 /**
  * @deprecated
  * Please use `presets options` like following example in `tailwind.config.js` or `windi.config.js`

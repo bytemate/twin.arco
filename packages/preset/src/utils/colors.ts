@@ -7,25 +7,33 @@ import {
   normalizeCssVariable,
 } from './formatter';
 
+export type CssVariableString = `--${string}`;
+
 export const themeKeys: ThemeName[] = theme.map(normalizeCssVariable);
 
 export const paletteKeys: PaletteName[] = palette.map(normalizeCssVariable);
 
-export function createTheme(
-  formatter: (value: `--${string}`) => string = defaultKeyFormatter,
+export function createRgb(
+  formatter: (value: CssVariableString) => string = defaultKeyFormatter,
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-expect-error
+  cssVariables: CssVariableString[] = theme,
 ) {
-  return theme.reduce((colors, key) => {
+  return cssVariables.reduce((colors, key) => {
     const _key = formatter(key);
     colors[_key] = cssVar(key);
     return colors;
   }, {} as Record<string, any>);
 }
 
-export function createPalette(
+export function createRgba(
+  formatter: (value: CssVariableString) => string = defaultKeyFormatter,
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-expect-error
+  cssVariables: CssVariableString[] = theme,
   opacity = true,
-  formatter: (value: `--${string}`) => string = defaultKeyFormatter,
 ) {
-  return palette.reduce((colors, key) => {
+  return cssVariables.reduce((colors, key) => {
     const _key = formatter(key);
     if (!opacity) {
       colors[_key] = cssRgb(cssVar(key));
@@ -38,5 +46,5 @@ export function createPalette(
 
 export function colorWithOpacity(key: string) {
   return ({ opacityVariable }: { [key: string]: string }) =>
-    cssRgba(key, cssVar(opacityVariable as `--${string}`, '1'));
+    cssRgba(key, cssVar(opacityVariable as CssVariableString, '1'));
 }

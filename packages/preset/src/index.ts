@@ -1,5 +1,5 @@
 import { windi } from '@twin.arco/dark-mode';
-import { createPalette, createTheme, defaultKeyFormatter } from './utils';
+import { createRgba, createRgb, defaultKeyFormatter } from './utils';
 
 export * from './utils';
 
@@ -21,8 +21,8 @@ export default function ({
     theme: {
       extend: {
         colors: {
-          ...createTheme(keyFormatter),
-          ...createPalette(enableOpacity, keyFormatter),
+          ...createRgb(keyFormatter),
+          ...createRgba(keyFormatter, undefined, enableOpacity),
         },
       },
     },

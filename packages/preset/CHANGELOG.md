@@ -1,5 +1,11 @@
 # @twin.arco/preset
 
+## 0.3.0
+
+### Minor Changes
+
+- 6524cdc: Expose `createRgb` & `createRgba` as a utils making custion color from css variable list
+
 ## 0.2.0
 
 ### Minor Changes

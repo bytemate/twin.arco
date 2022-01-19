@@ -1,5 +1,11 @@
 # @twin.arco/preset
 
+## 0.3.1
+
+### Patch Changes
+
+- 9dfd66b: Fixes missing arco plattle
+
 ## 0.3.0
 
 ### Minor Changes

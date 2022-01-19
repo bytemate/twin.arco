@@ -30,7 +30,7 @@ export function createRgba(
   formatter: (value: CssVariableString) => string = defaultKeyFormatter,
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-expect-error
-  cssVariables: CssVariableString[] = theme,
+  cssVariables: CssVariableString[] = palette,
   opacity = true,
 ) {
   return cssVariables.reduce((colors, key) => {

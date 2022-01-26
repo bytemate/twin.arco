@@ -212,6 +212,7 @@ importers:
     dependencies:
       '@babel/runtime': 7.16.3
       consola: 2.15.3
+      windicss: 3.2.1
     devDependencies:
       '@modern-js/module-tools': 1.1.1_typescript@4.5.2
       '@modern-js/plugin-jarvis': 1.1.1_typescript@4.5.2
@@ -222,7 +223,6 @@ importers:
       del-cli: 4.0.1
       tailwindcss: 2.2.19
       typescript: 4.5.2
-      windicss: 3.2.1
 
   packages/preset:
     specifiers:

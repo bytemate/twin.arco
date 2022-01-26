@@ -1,5 +1,12 @@
 # @twin.arco/preset
 
+## 0.3.2
+
+### Patch Changes
+
+- Updated dependencies [30c4be3]
+  - @twin.arco/dark-mode@0.1.1
+
 ## 0.3.1
 
 ### Patch Changes

@@ -10,8 +10,8 @@
     "release": "modern release",
     "deploy": "modern deploy",
     "lint": "modern lint",
-    "docs:dev": "pnpm run dev --filter @twin.arco/docs",
-    "docs:build": "pnpm run build --filter @twin.arco/docs"
+    "docs:dev": "pnpm --filter @twin.arco/docs run dev",
+    "docs:build": "pnpm --filter @twin.arco/docs run build"
   },
   "engines": {
     "node": ">=14.17.6"

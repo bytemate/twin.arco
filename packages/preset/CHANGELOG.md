@@ -1,5 +1,11 @@
 # @twin.arco/preset
 
+## 0.4.0
+
+### Minor Changes
+
+- 95410c6: Twin arco color theme add opacity fallback
+
 ## 0.3.2
 
 ### Patch Changes
